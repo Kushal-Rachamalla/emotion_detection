@@ -5,7 +5,7 @@ import tensorflow as tf
 import os
 
 app = Flask(__name__)
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("model.keras")
 
 # Optional: set class names based on your dataset folder names
 class_names = ['angry', 'fear', 'happy', 'sad', 'surprise', 'excitement']
